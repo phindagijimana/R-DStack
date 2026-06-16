@@ -1,16 +1,16 @@
-# R&D Hub
+# R&DStack
 
 > *A documentation hub for Research & Development in biomedical research — from Beginner to PhD level.*
 
 ### 🌐 Read it online → **[https://phindagijimana.github.io/R-DStack/](https://phindagijimana.github.io/R-DStack/)**
 
-[![Site](https://img.shields.io/badge/site-R%26D%20Hub-6f42c1?logo=readthedocs&logoColor=white)](https://phindagijimana.github.io/R-DStack/)
+[![Site](https://img.shields.io/badge/site-R%26DStack-6f42c1?logo=readthedocs&logoColor=white)](https://phindagijimana.github.io/R-DStack/)
 [![GitHub](https://img.shields.io/badge/github-phindagijimana%2FR--DStack-181717?logo=github)](https://github.com/phindagijimana/R-DStack)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ---
 
-**R&D Hub** is an open reference for understanding what Research & Development actually is, how it is done, and how someone grows from a beginner asking "what is R&D?" all the way to a PhD-level contributor who can define and lead a research direction.
+**R&DStack** is an open reference for understanding what Research & Development actually is, how it is done, and how someone grows from a beginner asking "what is R&D?" all the way to a PhD-level contributor who can define and lead a research direction.
 
 It is written for graduate students, research engineers, clinicians, data scientists, and developers entering biomedical AI — anyone who needs a single place that explains:
 

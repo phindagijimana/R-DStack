@@ -1,4 +1,4 @@
-site_name: R&D Hub
+site_name: R&DStack
 site_description: A Documentation Hub for Research & Development in Biomedical Research — from Beginner to PhD level.
 site_author: Philbert Ndagijimana
 site_url: https://phindagijimana.github.io/R-DStack/
@@ -141,7 +141,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/phindagijimana/R-DStack
-      name: R&D Hub on GitHub
+      name: R&DStack on GitHub
     - icon: fontawesome/solid/envelope
       link: mailto:phindagiji@gmail.com
       name: Email — phindagiji@gmail.com

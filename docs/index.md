@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# R&D Hub — Research & Development, from Beginner to PhD
+# R&DStack — Research & Development, from Beginner to PhD
 
-> Welcome to **R&D Hub** — a documentation hub for understanding Research & Development in biomedical research, from your first script to a PhD-level contribution.
+> Welcome to **R&DStack** — a documentation hub for understanding Research & Development in biomedical research, from your first script to a PhD-level contribution.
 
 Research & Development, or R&D, is the process of creating new knowledge and turning that knowledge into useful solutions, tools, products, methods, or systems.
 
