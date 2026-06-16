@@ -1,0 +1,151 @@
+site_name: R&D Hub
+site_description: A Documentation Hub for Research & Development in Biomedical Research — from Beginner to PhD level.
+site_author: Philbert Ndagijimana
+site_url: https://phindagijimana.github.io/R-DStack/
+repo_url: https://github.com/phindagijimana/R-DStack
+repo_name: phindagijimana/R-DStack
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Overview:
+      - overview/index.md
+      - What is R&D?: overview/what-is-rd.md
+      - Research vs Development: overview/research-vs-development.md
+      - R&D vs Research vs Development: overview/comparison.md
+  - Beginner:
+      - beginner/index.md
+      - What R&D means: beginner/what-it-means.md
+      - Doing research: beginner/research.md
+      - Doing development: beginner/development.md
+      - Your first R&D project: beginner/first-project.md
+  - Intermediate (the process):
+      - intermediate/index.md
+      - 1. Identify a problem: intermediate/identify-problem.md
+      - 2. Review existing knowledge: intermediate/review-knowledge.md
+      - 3. Form a research question: intermediate/research-question.md
+      - 4. Design a method: intermediate/design-method.md
+      - 5. Build a prototype: intermediate/build-prototype.md
+      - 6. Test and evaluate: intermediate/test-evaluate.md
+      - 7. Improve: intermediate/improve.md
+      - 8. Communicate results: intermediate/communicate.md
+  - Advanced (innovation):
+      - advanced/index.md
+      - Asking deeper questions: advanced/deeper-questions.md
+      - Deeper research: advanced/deeper-research.md
+      - Stronger development: advanced/stronger-development.md
+      - From scripts to systems: advanced/scripts-to-systems.md
+  - PhD level:
+      - phd/index.md
+      - Originality: phd/originality.md
+      - Rigor: phd/rigor.md
+      - Depth: phd/depth.md
+      - Contribution: phd/contribution.md
+      - Independence: phd/independence.md
+  - Growth path:
+      - growth-path/index.md
+      - Beginner: growth-path/beginner.md
+      - Junior R&D: growth-path/junior.md
+      - Intermediate R&D: growth-path/intermediate.md
+      - Advanced R&D: growth-path/advanced.md
+      - PhD level: growth-path/phd.md
+  - R&D mindset:
+      - mindset/index.md
+      - Scientific layer: mindset/scientific.md
+      - Engineering layer: mindset/engineering.md
+      - Validation layer: mindset/validation.md
+      - Translation layer: mindset/translation.md
+  - Biomedical AI:
+      - biomedical-ai/index.md
+      - Research questions: biomedical-ai/research-questions.md
+      - Development outputs: biomedical-ai/development-outputs.md
+      - R&D outputs: biomedical-ai/rd-outputs.md
+  - Case studies:
+      - case-studies/index.md
+      - Hippocampal sclerosis on MRI: case-studies/hippocampal-sclerosis.md
+  - Glossary: glossary.md
+  - Further reading: further-reading.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/phindagijimana/R-DStack
+      name: R&D Hub on GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:phindagiji@gmail.com
+      name: Email — phindagiji@gmail.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/philbert-ndagijimana-319570188/
+      name: Philbert Ndagijimana on LinkedIn
+  generator: false
