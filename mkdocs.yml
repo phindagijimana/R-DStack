@@ -100,6 +100,19 @@ nav:
       - 6. Test and evaluate: intermediate/test-evaluate.md
       - 7. Improve: intermediate/improve.md
       - 8. Communicate results: intermediate/communicate.md
+  - Research practice:
+      - research-practice/index.md
+      - The scientific method: research-practice/scientific-method.md
+      - Searching the literature: research-practice/literature-search.md
+      - A reading strategy: research-practice/reading-strategy.md
+      - Note-taking & references: research-practice/note-taking.md
+      - Writing fundamentals: research-practice/writing-fundamentals.md
+      - Anatomy of a scientific paper: research-practice/paper-anatomy.md
+      - The paper writing process: research-practice/paper-writing-process.md
+      - Peer review: research-practice/peer-review.md
+      - Preprints & publishing: research-practice/preprints-and-publishing.md
+      - Grant writing: research-practice/grant-writing.md
+      - Ethics & IRB: research-practice/ethics-and-irb.md
   - Advanced (innovation):
       - advanced/index.md
       - Asking deeper questions: advanced/deeper-questions.md

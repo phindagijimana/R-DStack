@@ -29,6 +29,8 @@ R&D connects discovery with application. This hub walks through what that means 
 
 -   :material-cog-outline: **[Intermediate — the process](intermediate/index.md)** — the eight-step R&D workflow used in real labs and teams.
 
+-   :material-notebook-edit-outline: **[Research practice](research-practice/index.md)** — scientific method, literature workflow, writing, peer review, grants, ethics.
+
 -   :material-lightbulb-on: **[Advanced — innovation](advanced/index.md)** — moving from scripts to systems, from reproducing to creating.
 
 -   :material-school: **[PhD level](phd/index.md)** — what originality, rigor, depth, contribution, and independence actually look like.

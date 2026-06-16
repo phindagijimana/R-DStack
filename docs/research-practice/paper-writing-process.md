@@ -1,0 +1,158 @@
+# The paper writing process
+
+> Writing a paper is a project. Run it like one.
+
+A paper that takes nine months to write often took three months of work and six months of stalling. The discipline is to **separate drafting from revising, separate revising from polishing, and give each its own time.**
+
+## A realistic timeline
+
+For a small-to-medium first-author paper, after the science is done:
+
+| Phase                          | Time          | Deliverable                                    |
+|--------------------------------|---------------|------------------------------------------------|
+| Outline + figures              | 1 week        | Section plan + final figures with captions     |
+| Draft methods + results        | 1 week        | Methods and results in prose                   |
+| Draft introduction + discussion| 1–2 weeks     | Full draft, ugly                               |
+| Internal revision              | 1–2 weeks     | A draft you would show your advisor            |
+| Co-author cycles               | 2–4 weeks     | A draft your senior author signs off on        |
+| Polish, submission package     | 1 week        | Cover letter, response to journal requirements, ready to submit |
+
+That is six to eleven weeks of focused work. Plan for the long end.
+
+## Outline first
+
+Before you write a sentence, outline:
+
+- **One sentence per section** stating its main point.
+- **One bullet per paragraph** stating its main point.
+- **All figures and tables sketched.**
+
+A paper with a strong outline is mostly written. A paper without an outline is rewritten three times.
+
+## Figures before prose
+
+Finalise figures and tables before the prose. Reasons:
+
+- Most readers are figure-first readers. The figures *are* the paper.
+- The figure captions force you to state what each figure shows in plain language.
+- The prose then describes the figures, not the other way around.
+
+A common pattern: draft the captions, then draft the results text *around* the captions.
+
+## Draft fast, ugly, complete
+
+Write the whole first draft in one to two weeks. Allow it to be bad. Aim for *complete*, not *good*:
+
+- Do not stop to find citations — drop placeholders (`[CITE]`) and move on.
+- Do not stop to perfect sentences — the next paragraph is more useful.
+- Do not start the introduction — write methods and results first.
+- Write the abstract last.
+
+A complete ugly draft is far more valuable than a polished half-draft.
+
+## Revise in passes
+
+The mistake people make is to edit every dimension of the paper at once. Do it in passes.
+
+### Pass 1 — Structure
+
+- Does each section do its job? (See [Anatomy of a scientific paper](paper-anatomy.md).)
+- Do the paragraph topic sentences, read alone, tell the story?
+- Are figures and tables in the right order?
+- Is the contribution stated in the introduction *and* discussion?
+
+If structure is wrong, fix it before anything else. Polishing prose inside a broken structure is wasted work.
+
+### Pass 2 — Flow
+
+- Does each paragraph follow from the previous one?
+- Are transitions explicit?
+- Old information before new?
+- One main idea per paragraph?
+
+Apply the [Writing fundamentals](writing-fundamentals.md) principles here.
+
+### Pass 3 — Sentence level
+
+- Apply the Hamilton seven rules.
+- Active voice unless there is a reason.
+- Cut words; aim for 15–25% length reduction.
+- Replace abstractions with concrete subjects.
+
+### Pass 4 — Mechanical
+
+- Citation completeness.
+- Figure / table / equation numbering.
+- Cross-reference consistency.
+- Style guide for the target journal.
+- Spell check, but do not trust it.
+
+### Pass 5 — Aloud
+
+Read every paragraph aloud. Where you stumble, rewrite.
+
+Each pass is fast because it only looks for one thing. Combining passes is what makes revision slow.
+
+## Co-author workflow
+
+In biomedical AI, a paper typically has three to ten authors. Coordinating is its own skill.
+
+- **Define roles early.** Use the CRediT taxonomy.
+- **Pick a "drafting" author.** One person owns the prose until submission. Everyone else suggests.
+- **Use track changes (or a comparable workflow) on every revision.**
+- **Time-box review.** "Please review by Friday" beats "please review when you can."
+- **Resolve major comments synchronously**, in a 30-minute meeting, before another draft cycle.
+- **Do not negotiate authorship order at the end.** Decide it before drafting.
+
+## Tooling
+
+- **LaTeX with Overleaf** for methods-heavy papers and most CS / physics venues.
+- **Word + reference manager add-in** for clinical journals and many medical schools.
+- **Google Docs + Paperpile** for fast collaborative cycles, then converted to journal format at submission.
+- **Markdown + Pandoc** for portable single-source workflows.
+
+Whatever you use, the bibliography file must be **version-controlled** and the figures must live in a **single source of truth** (e.g., a `figures/` folder generated by a script, not screenshots).
+
+## Version control for prose
+
+Treat the manuscript folder as a project:
+
+- `manuscript.tex` (or `.docx`, `.md`).
+- `figures/` with the script that generates each figure.
+- `references.bib`.
+- A `CHANGELOG.md` of major revisions and what changed between them.
+- A git repo.
+
+This pays off when you need to revert a discussion section a co-author rewrote three weeks ago.
+
+## What to do when you are stuck
+
+- **Read your outline.** If you have drifted, restart from the outline.
+- **Draft the next bullet, not the next section.** Lower the scope.
+- **Talk through it.** Explain the paper to a colleague over coffee. The blockage is usually that you do not yet know what you think.
+- **Walk away.** Half an hour outside resets more often than another hour at the desk.
+
+## When the paper is ready
+
+A paper is ready when:
+
+- The abstract matches the body.
+- A first-time reader (try a friendly colleague) can summarise the contribution after one read.
+- The figures stand alone with their captions.
+- The methods would let a competent reader reproduce the work.
+- The discussion's limitations section is one you would defend in a Q&A.
+
+If those five hold, submit. The remaining polish is in the response to the first review.
+
+## Further reading
+
+- *Writing Science* — Schimel J. Especially the sections on structuring papers as stories.
+- *The Craft of Scientific Writing* — Alley M. Underrated on figures and visual rhetoric.
+- *Pinker, The Sense of Style*, especially chapter 5 — coherence.
+- The CLIMB **[Aims Page Architecture](https://www.northwestern.edu/climb/resources/written-communication/)** materials — also good training for paper-introduction architecture.
+
+## Where to next
+
+- [Peer review](peer-review.md) — what happens after you submit.
+- [Preprints and publishing](preprints-and-publishing.md) — where to send the paper.
+- [Anatomy of a scientific paper](paper-anatomy.md) — the section roles, in detail.
